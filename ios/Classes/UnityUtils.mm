@@ -222,8 +222,8 @@ UnityAppController *controller;
 
         // Always keep Flutter window on top
         UIWindow* flutterUIWindow = application.keyWindow;
-        flutterUIWindow.windowLevel = UIWindowLevelNormal + 1;// Always keep Flutter window in top
-        application.keyWindow.windowLevel = UIWindowLevelNormal + 1;
+        // flutterUIWindow.windowLevel = UIWindowLevelNormal + 1;// Always keep Flutter window in top
+        // application.keyWindow.windowLevel = UIWindowLevelNormal + 1;
 
         InitUnity();
 
